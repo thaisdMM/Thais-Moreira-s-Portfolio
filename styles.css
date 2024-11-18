@@ -1,35 +1,63 @@
-
-
-
-
-
+/* Geral */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #c0a4be;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+/* Estilização da seção #projects */
+#projects {
+   text-align: center;
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+   width: 90%;
 }
 
-section {
-    padding: 20px;
-    margin: 20px;
+/* Título principal da seção */
+#projects h2 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   color: #333333;
+}
+/* Estilização de cada projeto */
+.project {
+   margin-bottom: 20px;
+   text-align: left; /* Alinha o conteúdo do projeto à esquerda */
+}
+/* Títulos dos projetos */
+.project h3 {
+   font-size: 1.5rem;
+   color: #2c3e50;
+   margin-bottom: 0.5rem;
 }
 
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
+/* Parágrafos de descrição */
+.project p {
+   font-size: 1rem;
+   line-height: 1.5;
+   color: #555555;
+   margin-bottom: 0.5rem;
 }
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+/* Listas dentro dos projetos */
+.project ul {
+   list-style-type: disc;
+   margin-left: 20px;
+   color: #444444;
+}
+/* Links */
+.project a {
+   color: #3498db;
+   text-decoration: none;
+   font-weight: bold;
+}
+.project a:hover {
+   text-decoration: underline;
 }
